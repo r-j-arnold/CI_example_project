@@ -10,4 +10,5 @@ script:
   - convert pic.jpg pic.png
 
 after_success:
+  - coverage run main.py
   - coverage report
