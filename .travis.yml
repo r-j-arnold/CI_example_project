@@ -6,7 +6,7 @@ before_install:
   - sudo apt-get install -y libxml2-dev
   - pip install coverage
 script:
-  - pytest
+  - pytest 
   - convert pic.jpg pic.png
 
 after_success:
